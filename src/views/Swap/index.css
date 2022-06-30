@@ -1,0 +1,53 @@
+.page-swap .wrap {
+  padding-bottom: 60px;
+}
+
+.page-swap .swap-cards {
+  width: 100%;
+}
+
+.page-swap .value{
+  display: flex;
+  align-items: center;
+  font-family: 'DDIN';
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 50px;
+  letter-spacing: 0.04em;
+}
+
+.page-swap .swap-cards .op{
+  justify-content: flex-end;
+}
+
+.page-swap .swap-cards .op button {
+  flex-basis: 50%;
+}
+
+.page-swap .swap-cards .op a {
+  flex-basis: 50%;
+  color: #ffffff;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.page-swap .swap-cards .name {
+  display: flex;
+  align-items: center;
+}
+
+.page-swap .swap-cards .name span {
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .page-swap .value {
+    font-size: 24px;
+    line-height: 36px;
+    justify-content: center;
+  }
+
+  .page-swap .label {
+    text-align: center;
+  }
+}
